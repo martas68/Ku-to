@@ -9,6 +9,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    object-fit: cover;
 
 
 }
@@ -85,7 +86,7 @@ body {
     border-radius: 10px;    
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .toggle-button {
         display: flex;
     }
@@ -115,6 +116,9 @@ body {
 
     .navbar-links.active {
         display: flex;
+    }
+    body{
+        object-fit: cover;
     }
 }
 
