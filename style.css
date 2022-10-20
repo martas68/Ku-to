@@ -4,6 +4,8 @@
 }
 
 body {
+    width: 100%;
+    min-height:100vh;
     margin: 0;
     padding: 0;
     background-image: url("https://www.investopedia.com/thmb/Tdghp5QTVMe2B8dQ4Rj2iWh9CbQ=/2218x1352/filters:fill(auto,1)/GettyImages-1050228750-78b205c15493434ca0fda93a37b0d095.jpg");
@@ -15,8 +17,6 @@ body {
 }
 
 .container {
-    width: 100%;
-    min-height:100vh;
     display: flex;
     align-items:flex-end;
     justify-content: center;
